@@ -2,29 +2,74 @@ h1, p, input {
     font-family: 'Lato', sans-serif;
 }
 
-#speechContainer {
-    margin:20px;
+body {
+    background-image: url("../img/Screenshot_2023-10-19_18-52-45.png");
+    position: page;
 }
 
-#submitButton {
-    background-color: black;
+li {
+    float: left;
+    border-radius: 10px;
+    display: inline;
+    border-right: solid black;
+    padding: 5px 10px;
+    background-color: #485F6E;
+    width: 50px;
+    margin-right: 60px;
+}
+li:last-child {
+    border-right: none;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#speechContainer {
+    margin-top: 100px;
     color: green;
-    border-radius: 5px;
-    border: none;
+    margin-left: 10px;
+}
+
+
+#submitButton {
+    background-color: deepskyblue;
+    color: black;
+    border-radius: 10px;
+    border-right: darkgreen;
     padding: 10px 30px;
     margin-top: 20px;
 }
 
-#submitButton:hover {
-    cursor: pointer;
+#speechContainer:hover {
+     cursor: pointer;
+
 }
 
-
-#speechTranscriptContainer {
-    margin-top: 20px;
+#submitButton:hover {
+    cursor: pointer;
+    border: 2px gold;
+    color: darkred;
 }
 
 #speechText {
     font-size: 18px;
     width: 500px;
+    color: limegreen;
 }
+
+#speechTranscriptContainer {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+footer {
+    margin-top: 300px;
+    margin-left: 400px;
+    color: #485F6E;
+}
+
+
+
+

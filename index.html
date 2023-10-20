@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--suppress ALL -->
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Speech Recognition in Python</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}"  />
+    <link rel="stylesheet" href="../static/styles/index.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='/styles/index.css') }}"  />
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+
 <div id="speechContainer">
-    <h1>Upload new File</h1>
+    <h1>Upload New File...</h1>
     <form method="post" enctype="multipart/form-data">
         <input type="file" name="file" />
         <br>
@@ -23,6 +33,10 @@
 </div>
     {% endif %}
 </div>
+
+    <footer>
+        <p>© 2023 FiDawg. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
