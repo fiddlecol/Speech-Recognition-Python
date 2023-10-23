@@ -8,12 +8,13 @@ body {
 }
 
 li {
-    float: left;
+    float: right;
     border-radius: 10px;
     display: inline;
-    border-right: solid black;
+    border-right: white;
     padding: 5px 10px;
     background-color: #485F6E;
+    color: darkblue;
     width: 50px;
     margin-right: 60px;
 }
@@ -27,7 +28,7 @@ ul {
 }
 
 #speechContainer {
-    margin-top: 100px;
+    margin-top: 50px;
     color: green;
     margin-left: 10px;
 }
@@ -50,26 +51,70 @@ ul {
 #submitButton:hover {
     cursor: pointer;
     border: 2px gold;
-    color: darkred;
+    color: #9C1A1C;
 }
 
 #speechText {
     font-size: 18px;
     width: 500px;
-    color: limegreen;
 }
 
-#speechTranscriptContainer {
+#TranscriptContainer {
     margin-top: 20px;
     margin-left: 10px;
+    color: #9C1A1C;
 }
 
-footer {
-    margin-top: 300px;
-    margin-left: 400px;
+#contacts {
+    color: darkblue;
+    padding: 10px 400px;
+    margin-left: 50px;
+}
+
+#whatsapp {
+    font-size: large;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+#twitter {
+    font-size: large;
+    background-color: black;
+    padding: 20px 100px 10px 40px;
+}
+
+#email {
+    font-size: large;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+#back {
+  font-size: large;
+  background-color: black;
+  padding-left: 40px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+#back1 {
+    font-size: large;
+    padding: 50px 450px;
+    background-color: black;
+}
+#text {
+    color: firebrick;
+    font-size: large;
+    background-color: black;
+    padding: 10px 100px;
+}
+
+#footer {
+    margin-bottom: 10px;
+    margin-left: auto;
     color: #485F6E;
 }
-
-
-
-
